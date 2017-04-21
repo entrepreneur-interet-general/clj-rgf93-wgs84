@@ -2,13 +2,13 @@
 
 ;; Lambert 93 constants
 
-(def n   0.7256077650)
-(def C   11754255.426)
-(def Xs  700000.0)
-(def Ys  12655612.050)
-(def e   0.08181919112)
-(def l0  (* 3 (/ Math/PI 180.0)))
-(def eps 1e-10)
+(def ^{:private true} n   0.7256077650)
+(def ^{:private true} C   11754255.426)
+(def ^{:private true} Xs  700000.0)
+(def ^{:private true} Ys  12655612.050)
+(def ^{:private true} e   0.08181919112)
+(def ^{:private true} l0  (* 3 (/ Math/PI 180.0)))
+(def ^{:private true} eps 1e-10)
 
 ;;; Core conversion functions
 
