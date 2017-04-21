@@ -52,6 +52,6 @@
 
 ;;; Public function
 (defn rgf93-to-wgs84
-  "Convert RGF93 coordinates into WGS84 coordinates."
+  "Take RGF93 coordinates and return a vector of WGS84 coordinates."
   [x y]
   (vector (lambda x y) (phi x y)))
