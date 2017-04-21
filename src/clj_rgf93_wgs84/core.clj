@@ -14,7 +14,7 @@
 
 ;; (Math/sqrt (+ (Math/pow (- x Xs) 2)
 ;;               (Math/pow (- y Ys) 2)))
-(defn- R [x y] (Math/hypot (- x Xs) (- y Ys))))
+(defn- R [x y] (Math/hypot (- x Xs) (- y Ys)))
 
 (defn- gamma [x y]
   (Math/atan
